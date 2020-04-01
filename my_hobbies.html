@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Gon's Hobbies</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="C:\Users\gonot\project0\project0\inheritance.css">
+
         <style>
             .row > div {
-               padding: 1px;
+               padding: 10px;
                color: black;
-               text-align:center
+               text-align: center
             }
             ul {
                 list-style: none;
+            }
+            table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 90%;
+            }
+            td {
+                padding: 5px;
+            }
+            .hobbie {
+                text-align: left;
             }
         </style>
     </head>
@@ -22,25 +35,54 @@
                     <ul>
                         <li>
                             <div class="alert alert-primary" role="alert">
-                                <a href="C:\Users\gonot\project0\gonzalo.html" class="alert-link">Gonzalo</a>
+                                <a href="C:\Users\gonot\project0\project0\gonzalo.html" class="alert-link">Gonzalo</a>
                                 </div>
                         </li>
                         <li>
                             <div class="alert alert-primary" role="alert">
-                                <a href="C:\Users\gonot\project0\intro.html" class="alert-link">Introduction</a>
+                                <a href="C:\Users\gonot\project0\project0\intro.html" class="alert-link">Introduction</a>
                             </div>
                         </li>
                         <li>
                             <div class="alert alert-primary" role="alert">
-                                <a href="C:\Users\gonot\project0\my_hobbies.html" class="alert-link">My Hobbies</a>
+                                <a href="C:\Users\gonot\project0\project0\my_hobbies.html" class="alert-link">My Hobbies</a>
                             </div>
                         </li>
                         <li>
                             <div class="alert alert-primary" role="alert">
-                                <a href="C:\Users\gonot\project0\about_me.html" class="alert-link">About Me</a>
+                                <a href="C:\Users\gonot\project0\project0\about_me.html" class="alert-link">About Me</a>
                             </div>
                         </li>
                      </ul>
+                </div>
+                <div class="col-8">
+                    <h1>My hobbies</h1>
+                    <p>I have many hobbies, but between all, I love Martial Arts. Actually, I'm a BJJ student.
+                    I also like to draw, write and code.</p>
+                    <h6>Here it is a table comparing a few things:</h6>
+                    <table>
+                        <tr>
+                            <th>Hobbie</th>
+                            <th>Hours spent per week</th>
+                            <th>Happiness (1-10)</th>
+                        </tr>
+                        <tr>
+                            <td class="hobbie">Jiu-Jitsu</td>
+                            <td>6</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td class="hobbie">Art</td>
+                            <td>2</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td class="hobbie">Hanging out w/ friends</td>
+                            <td>8</td>
+                            <td id="full_happiness">10</td>
+                        </tr>
+                    </table>
+
                 </div>
     </body>
 </html>

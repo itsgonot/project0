@@ -1,0 +1,10 @@
+$color: yellow;
+%message {
+  font-family: arial;
+  font-size: 18px;
+}
+#full_happiness {
+  @extend %message;
+  background-color: $color;
+  color: black;
+}
